@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#faf9f5">
+  <title>小竹 · Little Bamboo</title>
+  <meta name="description" content="A supportive bilingual parenting companion for Chinese families. Native iOS prototype.">
+  <style>
+    :root{--canvas:#faf9f5;--ink:#141413;--muted:#6c6a64;--action:#a9583e;--card:#efe9de;--line:#e6dfd8}
+    *{box-sizing:border-box}body{margin:0;background:var(--canvas);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+    main{max-width:1060px;margin:auto;padding:36px 28px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:24px}
+    .brand{display:flex;gap:12px;align-items:center}.brand svg{width:40px;height:40px;fill:var(--action);stroke:var(--action)}.brand strong{font-size:20px;font-weight:500}.brand small{display:block;font-size:10px;letter-spacing:2px}
+    .badge{font-size:12px;border:1px solid var(--line);padding:6px 12px;border-radius:99px;color:var(--muted)}.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:60px;align-items:center;padding:90px 0}
+    .eyebrow{font-size:12px;letter-spacing:1.5px;color:var(--muted)}h1{font:400 clamp(40px,5.2vw,64px)/1.1 Georgia,serif;letter-spacing:-1.5px;margin:24px 0}p{color:var(--muted);max-width:490px}
+    a{color:var(--action);text-underline-offset:4px}a.button{display:inline-flex;min-height:48px;align-items:center;background:var(--action);color:white;text-decoration:none;padding:12px 20px;border-radius:8px;margin-top:16px;font-weight:500}
+    .art{background:var(--card);border-radius:16px;padding:32px;aspect-ratio:1;display:flex;flex-direction:column;justify-content:center;align-items:center}.art svg{width:100%;height:auto}.art p{font:24px/1.3 Georgia,serif;text-align:center;color:var(--ink);margin:16px 0}
+    .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;border-top:1px solid var(--line);padding:32px 0}.notes h2{font-size:16px;font-weight:500}.notes p{font-size:14px}footer{border-top:1px solid var(--line);padding-top:24px;color:var(--muted);font-size:12px}
+    @media(max-width:700px){.hero{grid-template-columns:1fr;padding:48px 0;gap:32px}.art{max-width:400px}.notes{grid-template-columns:1fr;gap:8px}main{padding:24px}h1{font-size:42px}.badge{font-size:10px}.art p{font-size:24px}}
+  </style>
+</head>
+<body><main>
+  <header><div class="brand"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M17 36Q24 17 22 5" fill="none" stroke-width="2"/><path d="M20 12Q34 15 34 3Q20 -1 20 12M20 21Q6 24 6 12Q20 8 20 21M18 30Q32 33 32 21Q18 17 18 30"/></svg><div><strong>小竹</strong><small>LITTLE BAMBOO</small></div></div><span class="badge">iOS prototype</span></header>
+  <section class="hero"><div><span class="eyebrow">A LITTLE SUPPORT, EVERY DAY</span><h1>Growing together,<br>one day at a time.</h1><p>For the little questions. And the big feelings. A thoughtful parenting companion for Chinese families, in 中文 or English.</p><a class="button" href="https://github.com/mattbergland/little-bamboo">View the iOS project ↗</a><p style="font-size:13px">Native iOS app · Build with Xcode · Not yet on the App Store</p></div>
+  <div class="art"><svg viewBox="0 0 280 240" role="img" aria-label="A parent and child sitting together"><circle cx="155" cy="115" r="100" fill="#e8e0d2"/><ellipse cx="140" cy="220" rx="100" ry="16" fill="#faf9f5"/><rect x="78" y="100" width="78" height="120" rx="39" fill="#a9583e" transform="rotate(-12 115 160)"/><circle cx="100" cy="72" r="27" fill="#cc785c"/><rect x="160" y="150" width="50" height="74" rx="25" fill="#141413" transform="rotate(16 185 187)"/><circle cx="195" cy="127" r="20" fill="#cc785c"/><rect x="117" y="147" width="74" height="19" rx="9" fill="#cc785c" transform="rotate(25 154 156)"/></svg><p>You don’t have to figure<br>it all out alone.</p></div></section>
+  <section class="notes"><div><h2>Speak your language · 用熟悉的语言</h2><p>Chat in Chinese or English, with space for bilingual upbringing and cultural identity.</p></div><div><h2>Your family, your rhythm</h2><p>Explore big feelings, grandparents’ involvement, daily routines, and the questions in between.</p></div><div><h2>Keep what helps</h2><p>Save useful replies on your device and return to conversations when you need them.</p></div></section>
+  <footer>Little Bamboo provides general AI parenting support, not medical advice. Chats stay on your device; messages and optional family context are sent to Anthropic through a protected server when you ask for a reply. See the project README for setup and privacy details.</footer>
+</main></body></html>

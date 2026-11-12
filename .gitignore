@@ -1,0 +1,13 @@
+.DS_Store
+.env*
+!.env.example
+.vercel/
+node_modules/
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcresult
+*.app
+*.ipa
+*.log
