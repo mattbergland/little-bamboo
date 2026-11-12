@@ -109,6 +109,10 @@ struct ChatView: View {
 
     private var composer: some View {
         VStack(spacing: 8) {
+            if store.sendingID != nil && !pending {
+                Text(store.text("Finishing your other reply. Your draft can wait here.", "正在完成另一条回复，你可以先在这里写下想说的话。"))
+                    .font(.caption).foregroundStyle(BambooTheme.muted)
+            }
             HStack(alignment: .bottom, spacing: 8) {
                 TextField(store.text("What’s on your mind?", "想聊点什么？"), text: $draft, axis: .vertical)
                     .lineLimit(1...5).padding(.vertical, 12).padding(.leading, 16)

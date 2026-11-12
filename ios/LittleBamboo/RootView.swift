@@ -89,6 +89,7 @@ struct RootView: View {
                                 }.frame(maxWidth: .infinity, minHeight: 95, alignment: .leading).padding(16)
                                     .background(BambooTheme.soft, in: RoundedRectangle(cornerRadius: 12))
                             }.buttonStyle(.plain).foregroundStyle(BambooTheme.ink)
+                                .disabled(store.sendingID != nil)
                         }
                     }
                 }
@@ -108,10 +109,12 @@ struct RootView: View {
                     .font(.body).submitLabel(.send).onSubmit { sendHome() }
                     .accessibilityIdentifier("homeComposer")
                 Button(action: sendHome) {
-                    Image(systemName: "arrow.up").font(.system(.body, weight: .medium))
-                        .foregroundStyle(BambooTheme.onAction).frame(width: 44, height: 44)
+                    Group {
+                        if store.sendingID != nil { ProgressView().tint(BambooTheme.onAction) }
+                        else { Image(systemName: "arrow.up").font(.system(.body, weight: .medium)) }
+                    }.foregroundStyle(BambooTheme.onAction).frame(width: 44, height: 44)
                         .background(BambooTheme.action, in: Circle())
-                }.accessibilityLabel(store.text("Start conversation", "开始对话"))
+                }.disabled(store.sendingID != nil).accessibilityLabel(store.text("Start conversation", "开始对话"))
             }.padding(.leading, 18).padding(.trailing, 6).padding(.vertical, 6)
                 .background(BambooTheme.canvas, in: RoundedRectangle(cornerRadius: 28))
                 .overlay(RoundedRectangle(cornerRadius: 28).stroke(BambooTheme.line, lineWidth: 1))
@@ -189,6 +192,7 @@ struct RootView: View {
     }
 
     private func sendHome() {
+        guard store.sendingID == nil else { return }
         let prompt = draft.trimmingCharacters(in: .whitespacesAndNewlines)
         draft = ""
         openChat(prompt: prompt.isEmpty ? nil : String(prompt.prefix(4000)))
