@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AADC5363042EA69FD267BDD /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC390D3565D730955DE49B71 /* AppStore.swift */; };
+		4BAE56BCB460CB653C81D3BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FB4DF2AF9B31305582821 /* Assets.xcassets */; };
+		5096FADC104E437B2F6DBC27 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF68B75EAFF0FEC91C7D5E /* SavedView.swift */; };
+		6841F1239AF26BA951240B95 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3330134908AD0660F1400408 /* ChatView.swift */; };
+		723CE8FAF485E68B77D29694 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B4BD75F2C765C7E37E6DD /* AppStoreTests.swift */; };
+		7784662AFF0669EC7BF9C723 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65396C0129FE7E1DDAA460 /* ChatService.swift */; };
+		B41D6A8DC9C10B88A1B00501 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614C6577154F24D6AF8D3AF /* FamilyView.swift */; };
+		B57D0CA1C907D530ACBB56BE /* LittleBambooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F56BF999B8357361F0507D5 /* LittleBambooApp.swift */; };
+		CBD24BCBF472766DCDDBA7B3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3C165BD871BB7A8E2D835 /* Models.swift */; };
+		D11E24CF91A2D156E40B08BC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2748BD4292A349F07D6E68B /* Theme.swift */; };
+		DCC4F97C241F77AC87F8A98B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCC4E18ADE098EBD57ED5 /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10665EAEA1D2F9E23E692A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C772D375AD3C2505937CBF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC16DEACFD05025D5118D47;
+			remoteInfo = LittleBamboo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D1FB4DF2AF9B31305582821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3330134908AD0660F1400408 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		4F56BF999B8357361F0507D5 /* LittleBambooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleBambooApp.swift; sourceTree = "<group>"; };
+		4FE3C165BD871BB7A8E2D835 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		500CCC4E18ADE098EBD57ED5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5823F8CC11F57A76FB677A30 /* LittleBamboo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LittleBamboo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687B4BD75F2C765C7E37E6DD /* AppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
+		A2748BD4292A349F07D6E68B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BC390D3565D730955DE49B71 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		BF65396C0129FE7E1DDAA460 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		E22A4931E2B00EF135A1CBA3 /* LittleBambooTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LittleBambooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E614C6577154F24D6AF8D3AF /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		F6BF68B75EAFF0FEC91C7D5E /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26419094FA4C96FDFC7DE176 = {
+			isa = PBXGroup;
+			children = (
+				C4D9B35059C1B5E5AC6DDD88 /* LittleBamboo */,
+				B53EB98F4E9611C1C964FA4E /* LittleBambooTests */,
+				BC824F86DB1D401BF4E51B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53EB98F4E9611C1C964FA4E /* LittleBambooTests */ = {
+			isa = PBXGroup;
+			children = (
+				687B4BD75F2C765C7E37E6DD /* AppStoreTests.swift */,
+			);
+			path = LittleBambooTests;
+			sourceTree = "<group>";
+		};
+		BC824F86DB1D401BF4E51B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5823F8CC11F57A76FB677A30 /* LittleBamboo.app */,
+				E22A4931E2B00EF135A1CBA3 /* LittleBambooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4D9B35059C1B5E5AC6DDD88 /* LittleBamboo */ = {
+			isa = PBXGroup;
+			children = (
+				BC390D3565D730955DE49B71 /* AppStore.swift */,
+				2D1FB4DF2AF9B31305582821 /* Assets.xcassets */,
+				BF65396C0129FE7E1DDAA460 /* ChatService.swift */,
+				3330134908AD0660F1400408 /* ChatView.swift */,
+				E614C6577154F24D6AF8D3AF /* FamilyView.swift */,
+				4F56BF999B8357361F0507D5 /* LittleBambooApp.swift */,
+				4FE3C165BD871BB7A8E2D835 /* Models.swift */,
+				500CCC4E18ADE098EBD57ED5 /* RootView.swift */,
+				F6BF68B75EAFF0FEC91C7D5E /* SavedView.swift */,
+				A2748BD4292A349F07D6E68B /* Theme.swift */,
+			);
+			path = LittleBamboo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0ADCDEC557CDB877EDE6192 /* LittleBambooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7968A4CAB596A2A1AA9D0F23 /* Build configuration list for PBXNativeTarget "LittleBambooTests" */;
+			buildPhases = (
+				566326A4DE2A613C6707FD60 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A94415579DA7D64B4152519 /* PBXTargetDependency */,
+			);
+			name = LittleBambooTests;
+			packageProductDependencies = (
+			);
+			productName = LittleBambooTests;
+			productReference = E22A4931E2B00EF135A1CBA3 /* LittleBambooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFC16DEACFD05025D5118D47 /* LittleBamboo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB118FAEA24A1150720841FA /* Build configuration list for PBXNativeTarget "LittleBamboo" */;
+			buildPhases = (
+				E79A396CBF00C40826950830 /* Sources */,
+				6F471CD4F5DC98E927BE1B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleBamboo;
+			packageProductDependencies = (
+			);
+			productName = LittleBamboo;
+			productReference = 5823F8CC11F57A76FB677A30 /* LittleBamboo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C772D375AD3C2505937CBF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D0ADCDEC557CDB877EDE6192 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					DFC16DEACFD05025D5118D47 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E62B9B2D86DEE8ABEC80140 /* Build configuration list for PBXProject "LittleBamboo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 26419094FA4C96FDFC7DE176;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BC824F86DB1D401BF4E51B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC16DEACFD05025D5118D47 /* LittleBamboo */,
+				D0ADCDEC557CDB877EDE6192 /* LittleBambooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F471CD4F5DC98E927BE1B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAE56BCB460CB653C81D3BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566326A4DE2A613C6707FD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723CE8FAF485E68B77D29694 /* AppStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A396CBF00C40826950830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AADC5363042EA69FD267BDD /* AppStore.swift in Sources */,
+				7784662AFF0669EC7BF9C723 /* ChatService.swift in Sources */,
+				6841F1239AF26BA951240B95 /* ChatView.swift in Sources */,
+				B41D6A8DC9C10B88A1B00501 /* FamilyView.swift in Sources */,
+				B57D0CA1C907D530ACBB56BE /* LittleBambooApp.swift in Sources */,
+				CBD24BCBF472766DCDDBA7B3 /* Models.swift in Sources */,
+				DCC4F97C241F77AC87F8A98B /* RootView.swift in Sources */,
+				5096FADC104E437B2F6DBC27 /* SavedView.swift in Sources */,
+				D11E24CF91A2D156E40B08BC /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A94415579DA7D64B4152519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFC16DEACFD05025D5118D47 /* LittleBamboo */;
+			targetProxy = 10665EAEA1D2F9E23E692A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29B3FB52A454D5F7E7F04F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C981833F918C61DE327528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = land.mattberg.LittleBambooTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleBamboo.app/LittleBamboo";
+			};
+			name = Release;
+		};
+		9CC5569EED0495ED0CC73953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Little Bamboo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = land.mattberg.littlebamboo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB74898086B020F4A1ABB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = land.mattberg.LittleBambooTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleBamboo.app/LittleBamboo";
+			};
+			name = Debug;
+		};
+		EEF58126266629DD6A1D29B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F80E9E973E4562C1FF25BC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Little Bamboo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = land.mattberg.littlebamboo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E62B9B2D86DEE8ABEC80140 /* Build configuration list for PBXProject "LittleBamboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B3FB52A454D5F7E7F04F99 /* Debug */,
+				EEF58126266629DD6A1D29B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7968A4CAB596A2A1AA9D0F23 /* Build configuration list for PBXNativeTarget "LittleBambooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB74898086B020F4A1ABB43 /* Debug */,
+				94C981833F918C61DE327528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB118FAEA24A1150720841FA /* Build configuration list for PBXNativeTarget "LittleBamboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80E9E973E4562C1FF25BC86 /* Debug */,
+				9CC5569EED0495ED0CC73953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C772D375AD3C2505937CBF7A /* Project object */;
+}
